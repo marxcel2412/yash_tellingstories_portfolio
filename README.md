@@ -33,7 +33,7 @@ Here it might be helpful to include a high-level description of your final proje
 [Part II](final-project-part-two)
 Part III(final-project-part-three)
 
-<img width="4032" height="3024" alt="IMG_7330_bw" src="https://github.com/user-attachments/assets/6292feda-82e3-4f1c-b370-ab39815be01b" />
+<img width="403.2" height="302.4" alt="IMG_7330_bw" src="https://github.com/user-attachments/assets/6292feda-82e3-4f1c-b370-ab39815be01b" />
 
 
 ### Setting up a separate page
