@@ -14,17 +14,7 @@ This is my public portfolio for Telling Stories with Data at CMU!  Here's where 
 Hi!  I really like data.  And I like visualizations.  So I guess you can say that I like data visualizations!
 
 # What I hope to learn
-All the things - obviously. Maybe I want to make a list of all the things.  If so, I can do so in Markdown like this: 
-
-1. List item #1
-2. List item #2
-3. List item #3
-
-or...
-
-- List item #1
-- List item #2
-- List item #3
+I work with datasets like energy use intensity trends, water and energy metrics, and simulation outputs. The technical analysis part comes fairly naturally to me, but I've noticed that the last mile, turning that analysis into something a designer, policy maker, or client can actually understand and act on, is a skill of its own. In this course I hope to learn how to do that well: how to choose the right chart for a question, use color and layout deliberately, and build a narrative around data that persuades rather than just informs. I'm also looking forward to getting hands-on with tools I haven't used before, especially Tableau, Shorthand, and GitHub Pages, so that by the end I have a public portfolio of visualizations I'm proud to share.
 
 # Portfolio
 
