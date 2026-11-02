@@ -1,20 +1,16 @@
-| [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
+| [home page](https://marxcel2412.github.io/yash_tellingstories_portfolio/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
 
-# TSWD-portfolio-templates
-These portfolio templates are for setting up your Telling Stories with Data site.  Edit these pages and add new ones as needed.   
-It's always helpful to keep track of your web URL.  Consider putting that somewhere on your page for easy reference: 
-
-- Web page URL: https://cmustudent.github.io/tswd-portfolio-templates/
-- This repository: https://github.com/cmustudent/tswd-portfolio-templates/
 
 # Portfolio
 This is my public portfolio for Telling Stories with Data at CMU!  Here's where all my cool work will go.  You should probably hire me. 
 
 # About me
-Hi!  I really like data.  And I like visualizations.  So I guess you can say that I like data visualizations!
+Hi! 
+I'm Yash Shah, an architect from Mumbai and a current Master of Science in Building Performance and Diagnostics student at Carnegie Mellon University. My work sits at the intersection of architecture, data, and sustainability. I'm drawn to messy datasets, whether that's building performance records, bridge vibration signals, or historical census graphics, and to the challenge of turning them into clear, honest visualizations. 
+Outside of studio and lab, you'll usually find me researching tea and matcha, hunting for good restaurants, or building worlds for science-fiction stories. I also am a huuuuge football fan and have been supporting FC Barcelona since I was 8 years old. I will never say to a trek or hike.
 
 # What I hope to learn
-I work with datasets like energy use intensity trends, water and energy metrics, and simulation outputs. The technical analysis part comes fairly naturally to me, but I've noticed that the last mile, turning that analysis into something a designer, policy maker, or client can actually understand and act on, is a skill of its own. In this course I hope to learn how to do that well: how to choose the right chart for a question, use color and layout deliberately, and build a narrative around data that persuades rather than just informs. I'm also looking forward to getting hands-on with tools I haven't used before, especially Tableau, Shorthand, and GitHub Pages, so that by the end I have a public portfolio of visualizations I'm proud to share.
+I work with datasets like energy use intensity trends, water and energy metrics, and simulation outputs. The technical analysis part comes fairly naturally to me, but I've noticed that the last mile, turning that analysis into something a designer, policymaker, or client can actually understand and act on, is a skill of its own. In this course I hope to learn how to do that well: how to choose the right chart for a question, use color and layout deliberately, and build a narrative around data that persuades rather than just informs. I'm also looking forward to getting hands-on with tools I haven't used before, especially Tableau, Shorthand, and GitHub Pages, so that by the end I have a public portfolio of visualizations I'm proud to share.
 
 # Portfolio
 
