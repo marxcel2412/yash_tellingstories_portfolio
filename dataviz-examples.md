@@ -15,11 +15,23 @@ These visualizations compare general government debt across OECD countries in 20
 > Visualization: OECD Data, selected years (2010, 2015, 2020, and 2025).
 
 
-<script type='text/javascript'>                    
-  var divElement = document.getElementById('viz1793657463195');
-  var vizElement = divElement.getElementsByTagName('object')[0];
-  vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
-  var scriptElement = document.createElement('script');
-  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-  vizElement.parentNode.insertBefore(scriptElement, vizElement);
-</script>
+## Interactive Tableau Visualization
+
+### Global Debt Patterns Across OECD Countries | 2007–2024
+
+Explore general government debt as a percentage
+of GDP across OECD countries over time.
+
+<iframe
+  src="https://public.tableau.com/views/GovernmentDebtAcrossOECDCountries/Sheet1?:showVizHome=no&:embed=true"
+  width="100%"
+  height="750"
+  style="border: none;"
+  loading="lazy">
+</iframe>
+
+[View the interactive visualization on Tableau Public](https://public.tableau.com/views/GovernmentDebtAcrossOECDCountries/Sheet1)
+
+**Source:** OECD, General Government Debt (% of GDP),
+OECD Data Explorer. Visualization created using Tableau.
+
