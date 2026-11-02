@@ -6,7 +6,7 @@
 Text here!
 
 # Changes made since Part II
-> Include few paragraphs that reflects on changes you made since the completion of Part II. 
+> Include a few paragraphs that reflect on changes you made since the completion of Part II. 
 
 Text here!
 
