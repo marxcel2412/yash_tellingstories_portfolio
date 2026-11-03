@@ -1,4 +1,4 @@
-| [home page](https://marxcel2412.github.io/yash_tellingstories_portfolio/) | [data viz examples](dataviz-examples) | [Visualizing Government Debt](visualizing-government-debt) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
+| [home page](https://marxcel2412.github.io/yash_tellingstories_portfolio/) | [data viz examples](dataviz-examples) | [Viz Gov Debt](visualizing-government-debt) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
 
 
 # Portfolio
