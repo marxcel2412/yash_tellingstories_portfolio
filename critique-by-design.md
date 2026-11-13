@@ -82,14 +82,38 @@ The feedback shifted my focus from simply making the matrix attractive to giving
 
 The final Tableau dashboard combines a **decadal matrix** with **40-year net-change bars**, supported by source descriptions and an annotation explaining the later decline in CFC-related forcing.
 
-<iframe
-  src="https://public.tableau.com/views/GreenhouseGasDecadalMatrix/Dashboard1?:showVizHome=no&amp;:embed=true"
-  width="100%"
-  height="1190"
-  style="border: none; max-width: 100%;"
-  loading="lazy"
-  title="NOAA greenhouse gas decadal matrix and 40-year net-change Tableau dashboard">
-</iframe>
+<!-- The Tableau workbook has a fixed 1400 × 1177 desktop layout.
+     Scale the entire iframe to the reader's available width instead of
+     clipping the right-hand chart. The view remains interactive. -->
+<div id="noaa-viz-frame" style="width: min(1400px, calc(100vw - 48px)); max-width: none; position: relative; left: 50%; transform: translateX(-50%); overflow: hidden; height: 1177px; margin: 20px 0 8px;">
+  <iframe
+    id="noaa-viz-iframe"
+    src="https://public.tableau.com/views/GreenhouseGasDecadalMatrix/Dashboard1?:showVizHome=no&amp;:embed=true&amp;:toolbar=no"
+    width="1400"
+    height="1177"
+    style="width: 1400px; height: 1177px; border: 0; display: block; transform-origin: top left;"
+    loading="lazy"
+    allowfullscreen
+    title="Interactive NOAA greenhouse gas decadal matrix with 40-year net-change bars">
+  </iframe>
+</div>
+<script>
+(function () {
+  var frame = document.getElementById('noaa-viz-frame');
+  var viz = document.getElementById('noaa-viz-iframe');
+  if (!frame || !viz) return;
+  function fitNoaaViz() {
+    var scale = Math.min(1, frame.clientWidth / 1400);
+    viz.style.transform = 'scale(' + scale + ')';
+    frame.style.height = Math.ceil(1177 * scale) + 'px';
+  }
+  fitNoaaViz();
+  window.addEventListener('resize', fitNoaaViz);
+  if (window.ResizeObserver) {
+    new ResizeObserver(fitNoaaViz).observe(frame.parentElement);
+  }
+})();
+</script>
 
 [**Open the full interactive dashboard on Tableau Public**](https://public.tableau.com/views/GreenhouseGasDecadalMatrix/Dashboard1)
 
