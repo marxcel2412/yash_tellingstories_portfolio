@@ -151,7 +151,7 @@ The data are **changes in radiative forcing, measured in W/m²**, not emissions,
 
 ## AI acknowledgement
 
-I used **ChatGPT (OpenAI)** to brainstorm contrasting visualization concepts, help interpret the critique criteria, inspect and organize NOAA's historical data, prepare Tableau-ready calculations, troubleshoot Tableau formatting and dashboard construction, and structure and edit this portfolio writeup. I made the design decisions, developed and discussed the sketches in class, gathered feedback from classmates, and built the final Tableau dashboard. ChatGPT also assisted with the GitHub page update.
+I used **ChatGPT (OpenAI)** to brainstorm contrasting visualization concepts, inspect and organize NOAA's historical data, prepare Tableau-ready calculations, and troubleshoot Tableau formatting and dashboard construction. I made the design decisions, developed and discussed the sketches in class, gathered feedback from classmates, and built the final Tableau dashboard. ChatGPT also assisted with the errors in the GitHub page update, such as fitting the dashboard horizontally.
 
 ---
 
