@@ -21,7 +21,8 @@ I work with datasets like energy use intensity trends, water and energy metrics,
 
 This visualization explores how government debt-to-GDP ratios have evolved across OECD countries, focusing on whether the gap between low-debt and high-debt nations has widened over time. Using a box-and-whisker plot, it highlights shifts in debt distribution, persistent outliers, and patterns surrounding major global events such as the 2008 financial crisis and the COVID-19 pandemic.
 
-## MakeoverMonday: [Critique by Design — NOAA Greenhouse Gases](critique-by-design)
+## Assignment 11.12.2026: MakeoverMonday
+[Critique by Design — NOAA Greenhouse Gases](critique-by-design)
 
 I redesigned NOAA's Annual Greenhouse Gas Index visualization to explore how the warming influence of different greenhouse gases changed between 1981 and 2021. My final Tableau dashboard combines a decadal matrix and a 40-year net-change comparison, informed by Stephen Few's critique framework and feedback from three classmates. The project page documents the original visualization, two sketch concepts, classroom testing, design revisions, sources and AI acknowledgement.
 
