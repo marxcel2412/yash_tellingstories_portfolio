@@ -41,23 +41,49 @@ I used **Stephen Few's Data Visualization Effectiveness Profile** and submitted 
 
 **Reflecting on the critique method:** Few's framework helped me distinguish scientific credibility from clarity and usefulness. Compared with *Good Charts*, it felt more diagnostic: it identifies particular problems. *Good Charts* contributed the complementary questions of intended audience, central message, and what a reader should take away. Scores alone cannot capture all of that context.
 
-## Step three: Sketching two alternatives
+## Step three: Sketching three alternatives
 
-I explored two ways to change the question being asked, rather than simply reproducing NOAA's lines with new colors.
+Before building the final redesign in Tableau, I explored **three different chart types** to see how the same NOAA dataset could tell different stories. I wanted more than a cleaner version of the original lines: I wanted the form of each visualization to help answer a different question.
 
-### Concept A — Contribution waterfall: *Where did the increase come from?*
+### Concept A — Contribution waterfall: *Where did the additional warming influence come from?*
 
-The first idea was a waterfall/bridge chart that starts with greenhouse-gas radiative forcing in 1990, adds the changes associated with individual gases, and ends with the total in 2021. It uses **W/m² throughout** and emphasizes relative contributions. This approach makes CO₂'s contribution apparent but compresses decades of history into a before-and-after comparison.
+![Hand-drawn waterfall sketch comparing 1990 and 2021 greenhouse-gas radiative forcing, with the additional CO₂ and other-gas contributions](assets/noaa-sketch-waterfall.jpg)
 
-**Sketch logic:** Starting total → CO₂ change → changes from other gas groups → ending total.
+*Sketch 1. Waterfall concept: from approximately 2.30 W/m² in 1990 to 3.41 W/m² in 2021, decomposing the intervening increase into CO₂ and other greenhouse-gas contributions. Hand-drawn exploratory sketch.*
 
-### Concept B — Decadal matrix: *Did every gas change in the same way?*
+My first sketch begins with the **1990 total radiative forcing**, adds the increment associated with **CO₂** and then the combined increment from **other gases**, and ends at the higher **2021 total**. All quantities use W/m². The step-by-step structure was intended to make the magnitude of CO₂'s contribution apparent at a glance.
 
-The second idea was a matrix with **gas groups as rows and four ten-year periods as columns**: 1981–1991, 1991–2001, 2001–2011 and 2011–2021. Each cell contains the measured change in radiative forcing (W/m²). Contrasting colors distinguish increases from decreases, with numbers retained for exact comparisons.
+The strength of the waterfall is its **story of attribution**: where the increase came from. Its limitation is that it compresses more than thirty years into two endpoints, obscuring when the different gas groups accelerated, slowed, or reversed direction.
 
-**Sketch logic:** Read across a row to see the changing behavior of one gas; read down a column to compare gases within a decade. The opposing directions became more immediately visible than in the original overlapping time series.
+### Concept B — Decadal matrix: *Did all gases follow the same path?*
 
-Both concepts avoid dual axes and use a consistent unit. The waterfall makes **attribution** clearer; the matrix reveals **changes in pace and direction** across time. I took both concepts into classroom discussion before choosing the final direction.
+![Hand-drawn decadal matrix sketch showing six greenhouse-gas groups across 1981–1991, 1991–2001, 2001–2011, and 2011–2021, with negative CFC-related changes highlighted](assets/noaa-sketch-matrix.jpg)
+
+*Sketch 2. Matrix concept: change in radiative forcing (W/m²) for six gas groups over four decades. Contrasting outlines anticipate the final design's warm colors for increases and cool colors for decreases. Hand-drawn exploratory sketch.*
+
+The second sketch arranges **greenhouse gases in rows and four ten-year intervals in columns**: 1981–1991, 1991–2001, 2001–2011 and 2011–2021. Each cell contains the change in radiative forcing for that gas during the decade. I used contrasting colored outlines to emphasize the direction of change, while preserving the actual numbers.
+
+This design supported two kinds of reading: **across a row**, to follow how a gas changed over time, and **down a column**, to compare gases within the same decade. Most importantly, it drew attention to a distinctive contrast: CO₂-related forcing increased in every interval, whereas CFC-related forcing decreased in the later intervals. Unlike the original NOAA figure, these patterns do not require following several overlapping lines.
+
+### Concept C — Stacked columns: *How did the total and composition change?*
+
+![Hand-drawn stacked-column sketch comparing the radiative forcing contribution of CO₂, methane, nitrous oxide, CFCs, and other gases in 1990 and 2021](assets/noaa-sketch-stacked.jpg)
+
+*Sketch 3. Stacked-column concept: compare the total radiative forcing and relative contributions of major greenhouse-gas groups in 1990 and 2021. Hand-drawn exploratory sketch.*
+
+The third sketch uses **two stacked columns**, one for **1990** and one for **2021**. Each colored segment represents a gas group, so the column height communicates **total radiative forcing**, while the segments communicate **part-to-whole composition**. I emphasized the CO₂ segment to investigate how its contribution changed relative to the total: approximately **58% in 1990** versus **65% in 2021** in the revised NOAA historical data.
+
+This approach makes two findings visible simultaneously: the overall forcing was higher in 2021, and **CO₂ occupied a larger proportion of the total**. Its limitation is that a two-column comparison cannot show when individual gas groups changed direction. It also makes smaller gas segments harder to compare precisely than the matrix.
+
+### What the three sketches taught me
+
+| Sketch | Central question | What it reveals | What it leaves out |
+|:--|:--|:--|:--|
+| **Waterfall** | Where did the increase come from? | The contribution of CO₂ versus other gases to the overall change | The sequence and timing of changes |
+| **Decadal matrix** | Did all gases follow the same path? | Differences in direction and pace across four decades | The continuous year-by-year trajectory |
+| **Stacked columns** | How did the total and its composition change? | Both the overall increase and CO₂'s growing share | Changes between the two endpoints |
+
+The sketches showed me that **chart selection changes the question a reader can answer**, not merely the appearance of the same dataset. I brought these alternatives into classroom discussion and ultimately chose the matrix as the basis for my final Tableau redesign.
 
 ## Step four: Testing the sketches
 
@@ -67,7 +93,7 @@ The common preference was for the **matrix**. The group appreciated that it reve
 
 | Classroom feedback | What I changed in response |
 |:--|:--|
-| The matrix was clearer and more interesting than the alternative. | I retained it as the central chart. |
+| The matrix was the preferred approach among the three sketches. | I retained it as the central chart. |
 | The contrast between increases and decreases was particularly effective. | I preserved a diverging warm/cool color language and kept the numeric values visible. |
 | The title could explain the story better. | I moved to a finding-led headline about CO₂ and CFCs. |
 | A final column should combine the four decades. | I added a **1981–2021 net-change comparison** and developed it into companion bars so the overall magnitudes are easier to compare. |
