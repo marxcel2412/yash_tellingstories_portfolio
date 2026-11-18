@@ -28,9 +28,9 @@ I redesigned NOAA's Annual Greenhouse Gas Index visualization to explore how the
 
 ## Final project
 
-[Part I](final-project-part-one)
-[Part II](final-project-part-two)
-[Part III](final-project-part-three)
+[Final Project I](final-project-part-one) 
+[Final Project II](final-project-part-two)
+[Final Project III](final-project-part-three) 
 
 ## References
 _List any references you used here._
