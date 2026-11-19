@@ -46,19 +46,19 @@ These three hand-drawn sketches were created by me and cleaned and improved on b
 
 ### Sketch 1: The daily rhythm
 
-![Concept sketch: 24-hour weekday and weekend electricity demand, highlighting after-hours](iw-sketch-01-daily-rhythm-01.png)
+![Concept sketch: 24-hour weekday and weekend electricity demand, highlighting after-hours](assets/iw-sketch-01-daily-rhythm.png)
 
 *An opening chart to ask what happens to electricity demand after a typical workday ends.*
 
 ### Sketch 2: The hidden pattern
 
-![Concept sketch: an hourly heatmap comparing days in a week](assets/iw-sketch-02-weekly-heatmap-02.jpg)
+![Concept sketch: an hourly heatmap comparing days in a week](assets/iw-sketch-02-weekly-heatmap.png)
 
 *An hourly color grid to reveal recurring activity patterns and days that look different. In the measured version, individual calendar dates replace the seven illustrative weekday rows.*
 
 ### Sketch 3: Inside the systems
 
-![Concept sketch: aligned curves for building power, room temperature, and a lighting or HVAC signal](assets/iw-sketch-03-systems-03.jpg)
+![Concept sketch: aligned curves for building power, room temperature, and a lighting or HVAC signal](assets/iw-sketch-03-systems.png)
 
 *A way to compare several building readings on the same timeline, without assuming that one causes another.*
 
