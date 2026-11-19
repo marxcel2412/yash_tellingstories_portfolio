@@ -1,148 +1,187 @@
 | [Home Page](https://marxcel2412.github.io/yash_tellingstories_portfolio/) | [Data Viz Examples](dataviz-examples) | [Viz Gov Debt](visualizing-government-debt) | [Critique By Design](critique-by-design) | [Final Project I](final-project-part-one) | [Final Project II](final-project-part-two) | [Final Project III](final-project-part-three) |
 
-# After Hours: Does an Intelligent Building Ever Switch Off?
+# The Two Lives of an Intelligent Building
 
 **Final Project — Part I | Telling Stories with Data**
 
-*Tracing energy demand and environmental behavior at Carnegie Mellon University's Robert L. Preger Intelligent Workplace (IW).*
+*What stays on, what changes, and what does it mean for a building to be “smart”?*
 
-> **Status:** Initial proposal and preliminary evidence. The preliminary plots below use real data, but they are exploratory; the project's conclusions have not been established.
+> **This is an investigation, not a verdict.** The charts use real measurements from Carnegie Mellon University's Intelligent Workplace (IW). They show patterns worth exploring, but they do not prove that electricity is wasted or that any particular building system is responsible.
 
 ## Outline
 
-### High-level overview
+### The idea, in plain English
 
-Buildings are increasingly designed and described as intelligent, responsive, and energy-efficient. Yet a building's intelligence is not apparent simply because it has sensors or advanced controls: its operating patterns need to be examined. I want to investigate how electrical demand at the **Robert L. Preger Intelligent Workplace (IW)** changes throughout the day, particularly when a conventional workday ends. I am interested in the contrast between how we imagine an office building operates and what its measured demand actually does.
+Imagine a building filled with sensors and systems designed to respond to what happens inside. You might expect its electricity use to rise when activity increases and fall when things become quiet. At CMU's **Robert L. Preger Intelligent Workplace**, we have an unusual opportunity to test that assumption: historical records show the building's electrical demand and readings from several building systems, hour by hour.
 
-My project uses historical IW building-management-system exports, supplied with permission, to examine recorded electricity demand alongside selected lighting and indoor environmental measurements. I will start with January and February 2018 because two complete five-minute reports could be recovered and verified. The goal is **not** to declare nighttime energy demand wasteful or to measure the building's overall efficiency from a single meter. As a research-oriented building, the IW may have legitimate after-hours loads. Instead, I hope to explore how much demand persists, whether patterns repeat, and which available measurements can help explain them.
+The early results suggest **two overlapping stories**. One is fairly steady: even during the quietest recorded periods, the building continues using a considerable amount of electricity. The other changes: electricity use rises and falls alongside a lighting-related sensor signal. I want to understand both, without assuming that the steady demand is unnecessary or that lighting explains all the variation. I also want to ask what was happening inside the building at those times.
 
-### Central question
+The project will use **actual measured data** to move from a simple observation (“the building keeps using power”) to a more interesting question (“what changes, what stays steady, and what can the indoor readings tell us?”). As a research workplace, the IW may have after-hours needs that a conventional office does not. The aim is to make building operation understandable to people who have never studied building engineering.
 
-**How does the Intelligent Workplace's electrical demand vary across assumed working and nonworking periods, and what can its recorded systems and indoor conditions reveal about that behavior?**
+### Three questions that drive the story
 
-**Target audience:** Architecture and sustainability students, building operators, and a broader audience curious about how an intelligent building actually operates.
+1. **What stays on?** How much electricity does the building use during its lower-demand hours?
+2. **What changes?** Do power and other building-system readings rise and fall together?
+3. **What happens inside?** What do indoor sensor readings look like when power use is lower or higher?
 
-**One-sentence aim:** A building's operational intelligence cannot be judged from its energy use alone; the timing, context, and purposes of its demand also matter.
+**Audience:** Anyone curious about buildings and sustainability, especially students, designers, and building operators. No engineering background should be necessary.
 
-### Proposed narrative structure
+**Main message to test:** A smart building is more than a low electricity bill. To understand its performance, we need to look at **when it uses energy, which signals change with it, and what is happening inside**.
 
-| Act | Story beat | Question guiding the reader | Proposed storytelling element |
-|:--|:--|:--|:--|
-| **I — The promise** | Introduce the IW as a living laboratory and establish expectations of responsiveness. | What do we expect an intelligent building to do? | Architectural introduction and simplified systems diagram |
-| **II — A daily rhythm** | Compare typical weekday and weekend electrical-demand profiles. | Does demand drop when the conventional workday ends? | A 24-hour annotated profile |
-| **III — Behind the average** | Show repeated patterns and exceptions day by day. | Is the daily profile consistent, or do some days behave differently? | A February date-by-hour heatmap |
-| **IV — Inside the systems** | Examine synchronized demand, lighting and indoor-condition readings. | Which signals change together, and what remains unexplained? | Aligned time-series panels |
-| **V — Interpreting intelligence** | Distinguish what is measured from what requires operational knowledge. | What could this tell us about operating schedules, necessary loads, and future investigation? | Evidence-based conclusion and limitations |
+### Proposed story: five short chapters
 
-The story will move from **expectation → measurement → exception → investigation → interpretation**, with its final message refined after analysis rather than assumed in advance.
+| Chapter | What the reader discovers | Main visual |
+|:--|:--|:--|
+| **1. The promise** | Meet the Intelligent Workplace, a research building with many monitored systems. What would we expect a responsive building to do? | Photograph and simple building-systems illustration |
+| **2. The building that stays awake** | Electrical demand continues during quieter hours. How steady is that demand? | Daily electricity profile with the spread of readings |
+| **3. The building that responds** | Some readings change markedly. Power and a lighting-related signal move together, but the relationship needs explanation. | Power-versus-lighting scatterplot |
+| **4. What happens inside?** | Indoor CO₂ and room-temperature sensor readings differ across power-demand levels. Are those relationships meaningful? | Two easy-to-read indoor-condition comparisons |
+| **5. What have we really learned?** | Separate what the measurements show from what requires information about occupancy, meter coverage and system controls. | Evidence summary and an invitation to ask better operational questions |
 
-## Initial sketches
+The story moves through **expectation → surprise → investigation → interpretation**. The ending will follow the evidence, rather than assume the building is good or bad.
 
-These three exploratory sketch images are **AI-assisted visual representations of my planned chart layouts**, not visualizations of recorded IW values. Their numerical scales and lines are illustrative. Each develops a different chapter of the same story.
+## Initial sketches: where this started
+
+These three hand-drawn-style **AI-assisted concept sketches** were created before the expanded analysis. They show the intended storytelling sequence, **not actual IW measurements**. I have kept them here so readers can see how the project developed.
 
 ### Sketch 1 — The daily rhythm
 
-![Concept sketch showing a weekday and weekend 24-hour electrical-demand profile with the after-hours interval highlighted](assets/iw-sketch-01-daily-rhythm.jpg)
+![Concept sketch: 24-hour weekday and weekend electricity demand, highlighting after-hours](assets/iw-sketch-01-daily-rhythm.jpg)
 
-*Figure 1. A two-line 24-hour demand profile, with the period after 6 PM highlighted. The purpose is to make the expected weekday/weekend contrast and any persistent background load directly comparable.*
-
-**Why this chart?** A typical-day profile is a natural entry point for nonspecialists. It reveals *when* demand changes without requiring readers to inspect thousands of individual readings. The planned comparison uses the median of hourly demand within weekdays and weekends, not a single arbitrary day. The nominal 8 AM–6 PM window is an **analytical assumption**, not verified occupancy.
+*An opening chart to ask what happens to electricity demand after a typical workday ends.*
 
 ### Sketch 2 — The hidden pattern
 
-![Concept sketch of a day-by-hour weekly heatmap, showing higher and lower demand as blue tones](assets/iw-sketch-02-weekly-heatmap.jpg)
+![Concept sketch: an hourly heatmap comparing days in a week](assets/iw-sketch-02-weekly-heatmap.jpg)
 
-*Figure 2. A date-by-hour heatmap using color to represent demand. In the final version, rows will be actual dates in a chosen month, rather than the seven representative day-of-week rows shown in this early sketch.*
-
-**Why this chart?** Averaged demand profiles can conceal irregular days. The heatmap lets readers distinguish recurring patterns, weekends, and anomalous periods. It also provides a reason to discuss data quality when meter readings appear unnaturally constant.
+*An hourly color grid to reveal recurring activity patterns and days that look different. In the measured version, individual calendar dates replace the seven illustrative weekday rows.*
 
 ### Sketch 3 — Inside the systems
 
-![Concept sketch of three synchronized line plots: power, indoor temperature, and lighting or HVAC state](assets/iw-sketch-03-systems.jpg)
+![Concept sketch: aligned curves for building power, room temperature, and a lighting or HVAC signal](assets/iw-sketch-03-systems.jpg)
 
-*Figure 3. Aligned energy, environmental and system signals sharing the same time axis. This is a relationship-investigation sketch, not proof that any one system causes changes in total demand.*
+*A way to compare several building readings on the same timeline, without assuming that one causes another.*
 
-**Why this chart?** The project should move beyond reporting consumption to examine the building's operation. Aligning time axes helps a reader ask whether lighting or indoor environmental measurements change alongside demand. I will select only sensors with verifiable readings and avoid inferring causality from correlations.
+**How the plan changed:** My classroom discussion did not generate extensive actionable feedback, so I used preliminary data analysis to sharpen the central question. Rather than make “after hours” the whole project, I am treating it as the opening chapter of a broader story about **steady demand, changing activity, and indoor conditions**.
 
-## Initial data exploration: what the measurements actually suggest
+## The first findings: real data, real questions
 
-The three figures below are **first-pass analyses of measured IW records**, not the original sketches or finalized graphics. They are included now to show that the proposed story can be developed from the available dataset.
+The charts below use recorded measurements from **December 2017 through March 2018**. These are working analyses, not final conclusions.
 
-### Finding A — A persistent electrical baseline
+### Finding 1 — What stays on?
 
-![Measured January–February 2018 weekday and weekend 24-hour median electricity demand curves](assets/IW_chart_01_daily_rhythm.jpg)
+![Measured weekday and weekend electricity demand profiles across 24 hours, with variability bands](assets/IW_deep_01_stays_on.png)
 
-*Preliminary Chart A. Median of each hour's mean demand across weekdays versus weekends in January–February 2018, excluding five suspect meter-flatline dates. Power readings come from the point labeled “All Instant kW.”*
+*Figure 1. A typical day of electricity demand. The lines show the median for each hour; lighter bands show the middle 80% of measured values. Gray areas indicate hours outside the **assumed** 8 AM–6 PM workday.*
 
-Under an assumed weekday business window of **8 AM–6 PM**, median demand was approximately **9.11 kW during working hours versus 8.67 kW outside them in January**, and **9.57 kW versus 8.68 kW in February**, after excluding suspicious flatline days. The modest differences invite further investigation, but do not establish actual occupancy, the types of load served by the meter, or inefficiency.
+Even in its quieter hours, the monitored power demand remains substantial. Across the four months, the **5th percentile** of measured hourly demand was about **8.27 kW**, compared with approximately **11.26 kW at the 95th percentile**. In everyday terms, electricity demand changes, but the low-use level is still sizable.
 
-### Finding B — Some days do not follow the expected pattern
+**What this does not tell us:** Whether the remaining electricity is essential, avoidable, or associated with a particular piece of equipment. We do not yet have verified occupancy or a complete list of what the meter supplies.
 
-![Measured February 2018 date-by-hour heatmap of hourly electrical demand, excluding suspect flatline days](assets/IW_chart_02_hourly_calendar.jpg)
+### Finding 2 — What changes alongside demand?
 
-*Preliminary Chart B. Hourly mean demand for each day of February 2018. Pale flagged rows represent dates excluded from the color comparison because the meter was nearly constant throughout the day.*
+![Measured scatterplot: a lighting-related sensor signal versus electricity demand](assets/IW_deep_02_changes_together.png)
 
-This chart reveals variability hidden by the typical profile. Some days show concentrated higher demand during afternoon hours, while others appear comparatively steady. Five dates across the two-month sample were flagged for **two or fewer distinct power values over a full day**; the flag is a precaution, not a definitive diagnosis of a faulty sensor.
+*Figure 2. Each dot is one valid hour. The two readings tend to rise together across weekdays and weekends.*
 
-### Finding C — A first look at coincident signals
+The relationship between the **lighting-related signal** and electrical demand is strong in these records (a correlation of approximately **0.91**). More simply: **hours with a higher lighting-related reading also tend to be hours with higher electrical demand**. The pattern appears in each of the four months.
 
-![Measured synchronized power, lighting point and room-temperature sensor traces on February 13 2018](assets/IW_chart_03_aligned_systems.jpg)
+That makes the lighting signal a useful clue, **not an answer**. The sensor's precise units and what it measures have not been confirmed. We cannot conclude that lighting alone explains the change, or that the correlation shows cause and effect.
 
-*Preliminary Chart C. A representative day, February 13, 2018, aligning hourly mean electrical demand, the “All_Lighting_Cons” point, and one zone's “RMT” room-temperature reading. The latter two are intentionally labeled as raw values because their units and sensor interpretations still need confirmation.*
+### Finding 3 — What happens inside the building?
 
-This early comparison illustrates the analytical opportunity without claiming that lighting or temperature explains power demand. The third act of the story will need additional checks against sensor documentation, weather, and any available operating schedules.
+![Measured indoor CO2 and room-temperature sensor readings grouped by electricity-demand level](assets/IW_deep_03_indoor_conditions.png)
 
-## The data
+*Figure 3. Recorded indoor CO₂ and room-temperature values compared across four groups of electricity demand. Dots show typical values and whiskers show the middle half of the observations.*
 
-### Data provenance and selected scope
+The room-temperature and CO₂ readings are **not identical** across low- and high-demand hours. This opens up a more human question: *What is happening inside the building when its systems are more active?*
 
-The source is a user-supplied collection of historical building-management-system exports from **CMU's Intelligent Workplace**, used with permission for this course project. These reports contain approximately 250 labeled monitoring points, including electrical demand, lighting-related values, indoor CO₂ and humidity, zone-temperature readings, and building-system controls. I am not using named occupant-comfort or voting fields.
+At this stage, these are **raw sensor readings**. Before drawing conclusions about comfort or air quality, I need to confirm their units, sensor locations and whether people were actually present. Higher CO₂ can be consistent with human activity, but it is not a verified occupant count.
 
-The source archive is **truncated** and cannot be opened as a conventional complete ZIP. However, the individual monthly CSV reports used here were recovered intact. Report filenames indicate an export/report period and **do not identify the month of the readings reliably**: the internal `Date Range` header is authoritative. Specifically, the report named `02-01-18` contains **January 2018** data and the report named `03-01-18` contains **February 2018** data.
+### A reality check — Did the pattern change with the seasons?
 
-### Public, cleaned dataset
+![Measured distribution of electrical demand for December 2017 through March 2018](assets/IW_deep_04_winter_spring.png)
 
-**[Download the hourly Tableau-ready IW dataset (January–February 2018)](data/IW_public_hourly_Jan_Feb_2018.csv)**
+*Figure 4. Monthly median demand and its 10th–90th percentile range. This is a winter-to-early-spring check, **not a full seasonal analysis**.*
 
-[View the dataset directly on GitHub](https://github.com/marxcel2412/yash_tellingstories_portfolio/blob/main/data/IW_public_hourly_Jan_Feb_2018.csv)
+| Month | Typical hourly demand |
+|:--|--:|
+| December 2017 | 8.80 kW |
+| January 2018 | 8.69 kW |
+| February 2018 | 8.85 kW |
+| March 2018 | 8.80 kW |
 
-| Property | Details |
-|:--|:--|
-| Period covered | January 1–February 28, 2018, inclusive |
-| Source frequency | Every 5 minutes |
-| Exported dataset | **1,416 hourly records**, representing 16,992 five-minute timestamps |
-| Primary variable | `Power_kW_hourly_mean` from `All Instant kW` |
-| Additional variables | Hourly mean raw lighting, Zone 1 CO₂, relative humidity and room-temperature readings |
-| Metadata | Timestamp, month, date, hour, day of week, weekday/weekend, assumed work-hour flag |
-| Quality-control information | Number of contributing power observations per hour and `Power_QA_Flag` |
-| Data scope | Selected measurements only; personal comfort-vote fields are omitted |
+The typical demand did not change dramatically across these months, even though higher-demand hours varied. **That is an observation, not evidence that outdoor conditions have no effect.** We would need weather information and a wider seasonal range to test that properly.
 
-This dataset is the working copy for initial Tableau analysis. For reproducibility, each hourly demand value averages **twelve five-minute readings** when all observations are available. Missing or nonnumeric values become blank rather than zero. The reported time strings have no explicit UTC offset, so they are retained as **report-local timestamps**, without an assumed time-zone conversion.
+### What the first analysis suggests
 
-### Data quality, analytical assumptions, and limitations
+We can say that the building has **an enduring level of electrical demand** and **activity-related changes worth investigating**. We cannot yet say whether its controls are performing well, how much electricity is necessary after hours, or what the energy–comfort trade-off might be. Those are the important next questions.
 
-I validated that January had **8,928** evenly spaced readings and February had **8,064**, with no missing numeric readings for the selected power point. One February zone-temperature observation contained the error string `TIME (-2)` and is blank in the cleaned series. Five days — **January 22 and February 12, 18, 26 and 28** — had two or fewer distinct power readings across their day and were flagged as suspected reporting flatlines. The public data **retains** those records with an explicit QA flag; the preliminary power visualizations and period medians **exclude** flagged dates.
+## The data: where it comes from, what I used, and what I checked
 
-Other sensor limitations remain. The point `All_Lighting_Cons` has not yet been verified as a particular physical unit, and some zone-temperature values look Fahrenheit-like but lack confirmed sensor documentation. Other system signals such as heating or cooling modes may be categorical states, not numeric readings. I therefore avoid assigning physical units to unverified channels or treating every sensor as directly comparable.
+### Source and permission
 
-Finally, the analysis **does not include verified building occupancy, weather normalization, an energy end-use inventory or confirmed meter boundaries**. No after-hours power reading alone proves waste. The eventual story will distinguish observations from hypotheses and should be reviewed against IW building-system documentation before drawing operational conclusions.
+My source is a collection of historical **building-management-system reports from CMU's Intelligent Workplace**, which I have permission to use for this class project. The reports include measurements of electrical demand, a lighting-related signal, CO₂, humidity and room temperature, along with many other building controls. I have selected a small set of relevant, nonpersonal readings rather than publish the full archive, which also contains named comfort-response fields.
+
+### Public data for reproduction
+
+**[Download the cleaned hourly dataset: December 2017–March 2018](data/IW_hourly_Dec2017_Mar2018.csv)**
+
+[View the data on GitHub](https://github.com/marxcel2412/yash_tellingstories_portfolio/blob/main/data/IW_hourly_Dec2017_Mar2018.csv)
+
+The file contains **2,904 hourly time slots**, including **2,735 usable hours** after quality checks. It retains flagged records so that another analyst can see what was excluded rather than silently deleting inconvenient data.
+
+For comparison with the first project draft, I also retained the [January–February 2018 dataset](data/IW_public_hourly_Jan_Feb_2018.csv).
+
+| Source field | What it means in this study | Important caution |
+|:--|:--|:--|
+| `All Instant kW` | Total reported electrical-demand reading (kW) | Meter boundary and connected equipment need confirmation |
+| `All_Lighting_Cons` | Lighting-related signal | Physical unit and sensor meaning need confirmation |
+| `IW.1.RCO2` | Indoor CO₂ sensor reading in one monitored zone | Cannot independently establish occupancy or air quality |
+| `IW.1.RMT` | Room-temperature sensor reading in one monitored zone | Unit is not yet confirmed; cannot independently establish comfort |
+| `IW.1.RHM` | Humidity-related sensor reading in the same zone | Needs sensor-unit verification |
+
+### How I cleaned the records
+
+The original exports are **five-minute measurements**. I grouped them into hourly averages to make the patterns easier to compare. Before doing so, I checked the dates inside each report: some filenames refer to the export month rather than the month measured.
+
+I flagged **seven dates** with almost completely unchanged electrical readings: December 9, 2017; January 22, 2018; February 12, 18, 26 and 28; and March 27, 2018. These may be reporting problems, so their 168 hours are not used in the first charts. The missing 2 AM hour on **March 11, 2018** corresponds to the daylight-saving time transition and is marked separately, not mistaken for a full-day meter fault.
+
+These quality checks leave **2,735 valid hours** for the first four-month analysis. The dataset includes a `Power_QA_Flag` column documenting this choice. An hour with no reading is never silently treated as zero demand.
+
+### What the available archive can—and cannot—tell us about seasons
+
+I checked the original ZIP's report headers rather than infer date coverage from filenames. The available exports cover **selected Decembers, Januaries, Februaries, Marches and Aprils between 2013 and 2020**. No summer reports were supplied, and the April 2018 export is incomplete in the truncated ZIP. The four consecutive verified months used here are **December 2017–March 2018**.
+
+That is enough for a first look at **winter into early spring**, but **not enough to claim what happens across all four seasons**. A genuine summer comparison will require additional records. I will therefore keep seasonality as a question, not a claimed finding.
 
 ## Method and medium
 
-The final deliverable will be an **interactive, narrative data story**, rather than a standalone dashboard. I plan to use **Tableau** for preparing the visualizations and **Shorthand** for an article-style reading experience with a clear progression, annotation and transitions between views. I will use this GitHub Pages portfolio to document the proposal, sketches, dataset, subsequent user research, and final design decisions.
+I plan to build the final piece as a **guided interactive story**, not a dashboard of unrelated charts. **Tableau** will let readers explore the evidence through simple chart interactions; **Shorthand** will provide the chapter-by-chapter narrative, explanations and transitions. GitHub Pages will document the proposal, source data, sketches, revisions and final link.
 
-The next phase will refine the Tableau views, test clarity with both technical and nontechnical readers, and compare a small number of reliable sensors to determine which explanations the evidence supports. If a different tool is necessary for a particular interactive view, I will document that choice.
+Because the intended reader is not necessarily an engineer, I will explain every graph with one plain-language question and takeaway. Technical details—sensor names, cleaning rules and limitations—will remain available below each section for readers who want to look deeper.
+
+### Next checks before drawing conclusions
+
+1. **Confirm what the power meter and lighting-related signal measure.** Their names alone are not adequate sensor documentation.
+2. **Confirm indoor sensor units and zones.** Until then, the indoor comparison describes readings, not comfort or health.
+3. **Add building-operation and occupancy context if available.** This is needed before judging whether steady demand is necessary or avoidable.
+4. **Check other periods and weather data.** The supplied archive does not contain summer measurements, so a four-season story is not yet possible.
+5. **Test the story with actual readers.** Future classroom interviews should focus on the measured findings, the terminology and whether the narrative makes sense without engineering knowledge.
 
 ## References
 
-- Carnegie Mellon University, [Center for Building Performance and Diagnostics / Intelligent Workplace](https://www.cmu.edu/architecture/research/centers-labs/cbpd/index.html) (building and research context).
-- Source data: Historical Intelligent Workplace building-management-system reports, January–February 2018, used with permission; a selected, aggregated copy is linked above.
-- Scott Berinato, *Good Charts*, including guidance on audience, narrative structure and chart selection.
+- Carnegie Mellon University, [Center for Building Performance and Diagnostics and the Intelligent Workplace](https://www.cmu.edu/architecture/research/centers-labs/cbpd/index.html). Building and research context.
+- **Primary data:** Historical Intelligent Workplace building-management-system exports, December 2017–March 2018, shared with permission for the course. A cleaned, selected dataset is linked above.
+- Scott Berinato, *Good Charts*. Audience, narrative structure and chart selection.
 - Course assignment: *Telling Stories with Data*, Final Project Part I instructions and rubric.
 
 ## AI acknowledgements
 
 I used **ChatGPT (OpenAI)** to brainstorm and structure the proposed narrative, generate exploratory sketches (which are explicitly illustrative), help recover and interpret the source CSV reports, flag data-quality concerns, calculate preliminary comparisons, create draft charts, prepare an hourly analysis dataset, and assist with the Markdown/GitHub portfolio page. The choice of IW as the case study and permission to use the underlying data are my own. Preliminary findings and proposed explanations remain subject to verification.
+
+
+For this revision, ChatGPT also helped review the wider archive, compare power and lighting-related readings, examine indoor sensor data, develop four evidence-based figures, and revise the story for a nontechnical audience. The source limitations, QA exclusions and preliminary nature of the findings are documented above.
 
 ---
 
