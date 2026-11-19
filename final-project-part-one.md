@@ -123,6 +123,14 @@ We can say that the building has **an enduring level of electrical demand** and 
 
 My source is a collection of historical **building-management-system reports from CMU's Intelligent Workplace**, which I have permission to use for this class project. The reports include measurements of electrical demand, a lighting-related signal, CO₂, humidity, and room temperature, along with many other building controls. I have selected a small set of relevant, nonpersonal readings rather than publishing the full archive, which also contains named comfort-response fields.
 
+### Public data for reproduction
+
+**[Download the cleaned hourly dataset (December 2017–March 2018)](data/IW_hourly_Dec2017_Mar2018.csv)**
+
+[View the data on GitHub](https://github.com/marxcel2412/yash_tellingstories_portfolio/blob/main/data/IW_hourly_Dec2017_Mar2018.csv)
+
+For comparison with the first project draft, I also retained the [January–February 2018 dataset](data/IW_public_hourly_Jan_Feb_2018.csv).
+
 ## Method and medium
 
 I plan to build the final piece as a **guided interactive story**, not a dashboard of unrelated charts. **Tableau** will let readers explore the evidence through simple chart interactions; **Shorthand** will provide the chapter-by-chapter narrative, explanations, and transitions. GitHub Pages will document the proposal, source data, sketches, revisions, and final link.
