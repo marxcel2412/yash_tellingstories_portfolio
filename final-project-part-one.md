@@ -140,6 +140,7 @@ Because the intended reader is not necessarily an engineer, I will explain every
 ## AI acknowledgements
 
 I used **ChatGPT (OpenAI)** to brainstorm and structure the proposed narrative, polish the exploratory sketches, help recover and interpret the source CSV reports, create draft charts, prepare an hourly analysis dataset, and assist with the Markdown/GitHub portfolio page. The choice of IW as the case study and permission to use the underlying data are my own. Preliminary findings and proposed explanations remain subject to verification.
+
 For this revision, ChatGPT also helped review the wider archive, compare power and lighting-related readings, examine indoor sensor data, develop four evidence-based figures, and revise the story for a nontechnical audience. The source limitations, QA exclusions, and preliminary nature of the findings are documented above.
 
 ---
