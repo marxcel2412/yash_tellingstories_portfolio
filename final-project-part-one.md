@@ -2,7 +2,7 @@
 
 # The Two Lives of an Intelligent Building
 
-**Final Project — Part I | Telling Stories with Data**
+**Final Project: Part I | Telling Stories with Data**
 
 *What stays on, what changes, and what does it mean for a building to be “smart”?*
 
@@ -10,7 +10,7 @@
 
 ## Outline
 
-### The idea, in plain English
+### The idea
 
 Imagine a building filled with sensors and systems designed to respond to what happens inside. You might expect its electricity use to rise when activity increases and fall when things become quiet. At CMU's **Robert L. Preger Intelligent Workplace**, we have an unusual opportunity to test that assumption: historical records show the building's electrical demand and readings from several building systems, hour by hour.
 
@@ -42,23 +42,23 @@ The story moves through **expectation → surprise → investigation → interpr
 
 ## Initial sketches: where this started
 
-These three hand-drawn-style **AI-assisted concept sketches** were created before the expanded analysis. They show the intended storytelling sequence, **not actual IW measurements**. I have kept them here so readers can see how the project developed.
+These three hand-drawn sketches were created by me and cleaned and improved on by **AI** before the expanded analysis. They show the intended storytelling sequence; I have kept them here so readers can see how the project developed.
 
-### Sketch 1 — The daily rhythm
+### Sketch 1: The daily rhythm
 
-![Concept sketch: 24-hour weekday and weekend electricity demand, highlighting after-hours](assets/iw-sketch-01-daily-rhythm.jpg)
+![Concept sketch: 24-hour weekday and weekend electricity demand, highlighting after-hours](iw-sketch-01-daily-rhythm-01.png)
 
 *An opening chart to ask what happens to electricity demand after a typical workday ends.*
 
-### Sketch 2 — The hidden pattern
+### Sketch 2: The hidden pattern
 
-![Concept sketch: an hourly heatmap comparing days in a week](assets/iw-sketch-02-weekly-heatmap.jpg)
+![Concept sketch: an hourly heatmap comparing days in a week](assets/iw-sketch-02-weekly-heatmap-02.jpg)
 
 *An hourly color grid to reveal recurring activity patterns and days that look different. In the measured version, individual calendar dates replace the seven illustrative weekday rows.*
 
-### Sketch 3 — Inside the systems
+### Sketch 3: Inside the systems
 
-![Concept sketch: aligned curves for building power, room temperature, and a lighting or HVAC signal](assets/iw-sketch-03-systems.jpg)
+![Concept sketch: aligned curves for building power, room temperature, and a lighting or HVAC signal](assets/iw-sketch-03-systems-03.jpg)
 
 *A way to compare several building readings on the same timeline, without assuming that one causes another.*
 
@@ -68,7 +68,7 @@ These three hand-drawn-style **AI-assisted concept sketches** were created befor
 
 The charts below use recorded measurements from **December 2017 through March 2018**. These are working analyses, not final conclusions.
 
-### Finding 1 — What stays on?
+### Finding 1: What stays on?
 
 ![Measured weekday and weekend electricity demand profiles across 24 hours, with variability bands](assets/IW_deep_01_stays_on.png)
 
@@ -78,7 +78,7 @@ Even in its quieter hours, the monitored power demand remains substantial. Acros
 
 **What this does not tell us:** Whether the remaining electricity is essential, avoidable, or associated with a particular piece of equipment. We do not yet have verified occupancy or a complete list of what the meter supplies.
 
-### Finding 2 — What changes alongside demand?
+### Finding 2: What changes alongside demand?
 
 ![Measured scatterplot: a lighting-related sensor signal versus electricity demand](assets/IW_deep_02_changes_together.png)
 
@@ -88,7 +88,7 @@ The relationship between the **lighting-related signal** and electrical demand i
 
 That makes the lighting signal a useful clue, **not an answer**. The sensor's precise units and what it measures have not been confirmed. We cannot conclude that lighting alone explains the change, or that the correlation shows cause and effect.
 
-### Finding 3 — What happens inside the building?
+### Finding 3: What happens inside the building?
 
 ![Measured indoor CO2 and room-temperature sensor readings grouped by electricity-demand level](assets/IW_deep_03_indoor_conditions.png)
 
@@ -96,9 +96,9 @@ That makes the lighting signal a useful clue, **not an answer**. The sensor's pr
 
 The room-temperature and CO₂ readings are **not identical** across low- and high-demand hours. This opens up a more human question: *What is happening inside the building when its systems are more active?*
 
-At this stage, these are **raw sensor readings**. Before drawing conclusions about comfort or air quality, I need to confirm their units, sensor locations and whether people were actually present. Higher CO₂ can be consistent with human activity, but it is not a verified occupant count.
+At this stage, these are **raw sensor readings**. Before concluding comfort or air quality, I need to confirm their units, sensor locations, and whether people were actually present. Higher CO₂ can be consistent with human activity, but it doesn't verify occupant count.
 
-### A reality check — Did the pattern change with the seasons?
+### A reality check: Did the pattern change with the seasons?
 
 ![Measured distribution of electrical demand for December 2017 through March 2018](assets/IW_deep_04_winter_spring.png)
 
@@ -111,7 +111,7 @@ At this stage, these are **raw sensor readings**. Before drawing conclusions abo
 | February 2018 | 8.85 kW |
 | March 2018 | 8.80 kW |
 
-The typical demand did not change dramatically across these months, even though higher-demand hours varied. **That is an observation, not evidence that outdoor conditions have no effect.** We would need weather information and a wider seasonal range to test that properly.
+Typical demand did not change dramatically across these months, even though peak-demand hours varied. **That is an observation, not evidence that outdoor conditions have no effect.** We would need weather information and a wider seasonal range to test that properly.
 
 ### What the first analysis suggests
 
@@ -125,13 +125,9 @@ My source is a collection of historical **building-management-system reports fro
 
 ### Public data for reproduction
 
-**[Download the cleaned hourly dataset: December 2017–March 2018](data/IW_hourly_Dec2017_Mar2018.csv)**
-
-[View the data on GitHub](https://github.com/marxcel2412/yash_tellingstories_portfolio/blob/main/data/IW_hourly_Dec2017_Mar2018.csv)
-
 The file contains **2,904 hourly time slots**, including **2,735 usable hours** after quality checks. It retains flagged records so that another analyst can see what was excluded rather than silently deleting inconvenient data.
 
-For comparison with the first project draft, I also retained the [January–February 2018 dataset](data/IW_public_hourly_Jan_Feb_2018.csv).
+For comparison with the first project draft, I also retained the 
 
 | Source field | What it means in this study | Important caution |
 |:--|:--|:--|
