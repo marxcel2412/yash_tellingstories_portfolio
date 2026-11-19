@@ -129,13 +129,6 @@ I plan to build the final piece as a **guided interactive story**, not a dashboa
 
 Because the intended reader is not necessarily an engineer, I will explain every graph with one plain-language question and takeaway. Technical details—sensor names, cleaning rules, and limitations—will remain available below each section for readers who want to look deeper.
 
-### Next checks before drawing conclusions
-
-1. **Confirm what the power meter and lighting-related signal measure.** Their names alone are not adequate sensor documentation.
-2. **Confirm indoor sensor units and zones.** Until then, the indoor comparison describes readings, not comfort or health.
-3. **Add building-operation and occupancy context if available.** This is needed before judging whether steady demand is necessary or avoidable.
-4. **Check other periods and weather data.** The supplied archive does not contain summer measurements, so a four-season story is not yet possible.
-5. **Test the story with actual readers.** Future classroom interviews should focus on the measured findings, the terminology and whether the narrative makes sense without engineering knowledge.
 
 ## References
 
