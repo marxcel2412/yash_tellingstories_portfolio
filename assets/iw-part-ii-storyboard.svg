@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 796 844" role="img" aria-labelledby="title desc">
+<title id="title">Storyboard for The Two Lives of an Intelligent Building</title><desc id="desc">Six screens in reading order, from the opening comparison to the closing questions. Chart thumbnails are schematic.</desc>
+<rect width="796" height="844" rx="18" fill="#f4f3ef"/>
+<g font-family="system-ui, sans-serif" fill="#203040">
+<text x="29" y="38" font-size="25" font-weight="700">The Two Lives of an Intelligent Building</text>
+<text x="30" y="62" font-size="14" fill="#4b5b68">Scroll storyboard · chart thumbnails are schematic</text>
+<g transform="translate(26 84)"><rect width="368" height="230" rx="13" fill="white" stroke="#d9dfe1"/>
+<text x="18" y="26" font-size="12" font-weight="700" fill="#8d4125">01 · OPENING</text>
+<text x="18" y="50" font-size="21" font-weight="700">Meet the workplace</text>
+<rect x="18" y="61" width="332" height="65" rx="7" fill="#eef3f3"/>
+<g transform="translate(47 61)"><path d="M25 53h48V35l18 10 19-22 20 17 18-13 17 13v13h55" fill="none" stroke="#08716f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="18" y="148" font-size="14.5">A campus rooftop research lab</text><text x="18" y="167" font-size="14.5">8.71 kW outside work hours</text><text x="18" y="186" font-size="14.5">9.26 kW during work hours</text>
+<text x="18" y="213" font-size="13" font-weight="650" fill="#086261">Read the comparison, then scroll.</text></g>
+<g transform="translate(402 84)"><rect width="368" height="230" rx="13" fill="white" stroke="#d9dfe1"/>
+<text x="18" y="26" font-size="12" font-weight="700" fill="#8d4125">02 · DAILY PROFILE</text>
+<text x="18" y="50" font-size="21" font-weight="700">Follow a day</text>
+<rect x="18" y="61" width="332" height="65" rx="7" fill="#eef3f3"/>
+<g transform="translate(47 61)"><path d="M25 55h205M25 55V15M25 48 55 47 85 44 115 32 145 27 175 31 205 40 227 46" fill="none" stroke="#08716f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="18" y="148" font-size="14.5">Weekday and weekend profiles</text><text x="18" y="167" font-size="14.5">Clock hour on the horizontal axis</text><text x="18" y="186" font-size="14.5">Median lines and middle 80% bands</text>
+<text x="18" y="213" font-size="13" font-weight="650" fill="#086261">Trace the weekday line into evening.</text></g>
+<g transform="translate(26 331)"><rect width="368" height="230" rx="13" fill="white" stroke="#d9dfe1"/>
+<text x="18" y="26" font-size="12" font-weight="700" fill="#8d4125">03 · PAIRED READINGS</text>
+<text x="18" y="50" font-size="21" font-weight="700">Compare two signals</text>
+<rect x="18" y="61" width="332" height="65" rx="7" fill="#eef3f3"/>
+<g transform="translate(47 61)"><path d="M26 55h90M26 55V16M137 55h90M137 55V16" fill="none" stroke="#08716f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="35" cy="48" r="3.1" fill="#9b421f"/><circle cx="44" cy="44" r="3.1" fill="#9b421f"/><circle cx="58" cy="42" r="3.1" fill="#9b421f"/><circle cx="66" cy="33" r="3.1" fill="#9b421f"/><circle cx="81" cy="29" r="3.1" fill="#9b421f"/><circle cx="97" cy="19" r="3.1" fill="#9b421f"/><circle cx="146" cy="50" r="3.1" fill="#9b421f"/><circle cx="156" cy="47" r="3.1" fill="#9b421f"/><circle cx="168" cy="40" r="3.1" fill="#9b421f"/><circle cx="182" cy="42" r="3.1" fill="#9b421f"/><circle cx="193" cy="36" r="3.1" fill="#9b421f"/><circle cx="212" cy="29" r="3.1" fill="#9b421f"/></g>
+<text x="18" y="148" font-size="14.5">Weekday and weekend scatterplots</text><text x="18" y="167" font-size="14.5">One dot per recorded hour</text><text x="18" y="186" font-size="14.5">The same scales in both panels</text>
+<text x="18" y="213" font-size="13" font-weight="650" fill="#086261">Look for a shared direction.</text></g>
+<g transform="translate(402 331)"><rect width="368" height="230" rx="13" fill="white" stroke="#d9dfe1"/>
+<text x="18" y="26" font-size="12" font-weight="700" fill="#8d4125">04 · INDOOR READINGS</text>
+<text x="18" y="50" font-size="21" font-weight="700">Look inside</text>
+<rect x="18" y="61" width="332" height="65" rx="7" fill="#eef3f3"/>
+<g transform="translate(47 61)"><path d="M26 55h90M137 55h90M40 29v21m20-17v21m20-26v21m20-28v21M150 32v21m20-24v21m20-27v21m20-27v21" fill="none" stroke="#08716f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="40" cy="39" r="3.1" fill="#9b421f"/><circle cx="60" cy="43" r="3.1" fill="#9b421f"/><circle cx="80" cy="38" r="3.1" fill="#9b421f"/><circle cx="100" cy="31" r="3.1" fill="#9b421f"/><circle cx="150" cy="42" r="3.1" fill="#9b421f"/><circle cx="170" cy="38" r="3.1" fill="#9b421f"/><circle cx="190" cy="32" r="3.1" fill="#9b421f"/><circle cx="210" cy="26" r="3.1" fill="#9b421f"/></g>
+<text x="18" y="148" font-size="14.5">CO₂ and room-temperature panels</text><text x="18" y="167" font-size="14.5">Four groups of hourly demand</text><text x="18" y="186" font-size="14.5">Dots and middle-half ranges</text>
+<text x="18" y="213" font-size="13" font-weight="650" fill="#086261">Compare the lowest and highest groups.</text></g>
+<g transform="translate(26 578)"><rect width="368" height="230" rx="13" fill="white" stroke="#d9dfe1"/>
+<text x="18" y="26" font-size="12" font-weight="700" fill="#8d4125">05 · MONTHLY CHECK</text>
+<text x="18" y="50" font-size="21" font-weight="700">Compare four months</text>
+<rect x="18" y="61" width="332" height="65" rx="7" fill="#eef3f3"/>
+<g transform="translate(47 61)"><path d="M30 54h197M54 27v21m48-17v19m48-30v29m48-20v18" fill="none" stroke="#08716f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="54" cy="39" r="3.1" fill="#9b421f"/><circle cx="102" cy="41" r="3.1" fill="#9b421f"/><circle cx="150" cy="38" r="3.1" fill="#9b421f"/><circle cx="198" cy="39" r="3.1" fill="#9b421f"/></g>
+<text x="18" y="148" font-size="14.5">December 2017 through March 2018</text><text x="18" y="167" font-size="14.5">Monthly medians and spread</text><text x="18" y="186" font-size="14.5">February has the widest range</text>
+<text x="18" y="213" font-size="13" font-weight="650" fill="#086261">See what stays similar across months.</text></g>
+<g transform="translate(402 578)"><rect width="368" height="230" rx="13" fill="white" stroke="#d9dfe1"/>
+<text x="18" y="26" font-size="12" font-weight="700" fill="#8d4125">06 · CLOSING</text>
+<text x="18" y="50" font-size="21" font-weight="700">What would explain it?</text>
+<rect x="18" y="61" width="332" height="65" rx="7" fill="#eef3f3"/>
+<g transform="translate(47 61)"><path d="M28 22h35m14 0h92M28 36h35m14 0h119M28 50h35m14 0h78" fill="none" stroke="#08716f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="18" y="148" font-size="14.5">What the meter showed</text><text x="18" y="167" font-size="14.5">What the sensors suggest</text><text x="18" y="186" font-size="14.5">What needs verification</text>
+<text x="18" y="213" font-size="13" font-weight="650" fill="#086261">End with the next questions.</text></g>
+</g></svg>
