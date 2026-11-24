@@ -8,39 +8,53 @@
 
 ## Storyboard and draft story
 
-This page is the working storyboard for a scroll-based story about CMU’s Intelligent Workplace. The panels show how the reader moves from the opening question through the measured comparisons to a closing reader task. The charts below use measured data from December 2017 through March 2018.
+### What do you expect after 6 p.m.?
 
-![Six storyboard panels showing the opening, hourly demand, the lighting-related signal, indoor readings, the monthly check, and the closing comparison and question for campus facilities.](assets/iw-part-ii-storyboard.svg)
+When you leave a classroom at the end of the day, what do you expect happens to its electricity use? If daylight keeps a classroom bright while its electric lights dim, the room can do the same job with less electricity. CMU’s Intelligent Workplace, the rooftop research lab above Margaret Morrison Carnegie Hall, was designed to study how building systems can respond to the people using them. [See a photo of the Intelligent Workplace](https://www.architecture.cmu.edu/cbpd).
 
-### How much does demand drop outside a typical workday?
-
-Think about a campus building you use for class, study, or work. How much electricity would you expect it to draw after a typical workday? I asked that question about CMU’s Intelligent Workplace, a research lab and workspace above Margaret Morrison Carnegie Hall.
-
-The comparison uses **8 a.m. to 6 p.m. on weekdays** as a schedule. The records do not include verified occupancy. [See CMU’s photograph of the Intelligent Workplace, credited to Karl Backus](https://www.architecture.cmu.edu/cbpd).
-
-### 1. Follow the meter through a day
-
-**What I expected.** I sketched a large rise during the day and a sharp drop afterward.
+I expected the meter to show a steep drop after a typical workday. Before looking at the measurements, what would you expect the line to look like at 8 p.m.?
 
 ![Original daily rhythm sketch showing an anticipated large rise in weekday electricity demand.](assets/iw-sketch-01-daily-rhythm.png)
 
-*Illustrative sketch from Part I. The values are placeholders.*
+*My Part I sketch shows the pattern I expected. Its numbers are illustrative.*
 
-**What the meter recorded.** Median weekday demand was **8.71 kW outside the assumed workday** and **9.26 kW during it**, a difference of **0.55 kW**.
+[See what the meter recorded](#1-follow-the-meter-through-a-day)
 
-![Median weekday and weekend demand by hour. Weekday median demand was 8.71 kW outside assumed work hours and 9.26 kW during them.](assets/iw-demand-profile.png)
+### 1. Follow the meter through a day
 
-*Figure 1. Lines show the median demand at each hour. Bands show the middle 80% of readings. Gray marks the hours outside the assumed weekday schedule. The dotted line is the 5th percentile across all valid hours.*
+**Panel 2 · The reveal.** At noon the meter typically showed **9.40 kW**. At 8 p.m. it showed **9.31 kW**. Find the two labeled points on the line. A kilowatt, or kW, measures how fast something draws electricity.
 
-Follow the solid weekday line from late afternoon into the evening. Demand tapers, then settles near its overnight level. The dashed weekend line is flatter. The meter shows a persistent demand, and identifying the equipment behind it requires a list of the loads connected to the meter.
+![Typical weekday electricity draw by hour. The median was 9.40 kW at noon and 9.31 kW at 8 p.m.](assets/iw-part-ii-noon-evening.svg)
+
+Across all valid weekday readings, the median was **9.26 kW during** assumed work hours and **8.71 kW outside** them, about **6% lower**. I used **8 a.m. to 6 p.m. on weekdays** as a comparison window. The records leave actual occupancy unknown.
+
+[Follow one clue](#2-compare-demand-with-a-lighting-related-reading)
 
 ### 2. Compare demand with a lighting-related reading
 
+**Panel 3 · Look at the left edge of both charts.** Even near the lowest lighting-related readings, the meter often showed **around 8–9 kW**. Each dot is one recorded hour. Farther right means a higher reading on the recorded scale.
+
 ![Scatterplots split into weekdays and weekends on the same axes. Higher lighting-related readings generally coincide with higher electricity demand.](assets/iw-demand-lighting.png)
 
-*Figure 2. Each dot is one valid hour. The two panels use the same axes so the weekday and weekend patterns can be compared.*
+The signal moves with electricity draw, and its units and exact meaning still need verification. To explain the readings on the far left, I’d first find out which equipment this meter serves. [See the technical notes](#supporting-evidence).
 
-Higher lighting-related readings generally occur alongside higher demand. The overall correlation is **0.91**. The signal’s definition, its units, and the loads included in the power meter still need verification before I can explain the relationship.
+[Use what you saw to frame a question](#what-would-you-ask-campus-facilities)
+
+### What would you ask campus facilities?
+
+**Panel 4 · Compare noon and 8 p.m.** Go back to the [weekday line](#1-follow-the-meter-through-a-day) and look at the two marked hours. Then ask:
+
+> At CMU’s Intelligent Workplace, the meter was still near its noon reading at 8 p.m. **Which equipment does this meter serve, and which of it needs to run at 8 p.m.?**
+
+That gives Facilities a specific meter and time to investigate. The next step would be to check what the meter serves and compare those equipment schedules with the readings. [CMU Facilities Management Services](https://www.cmu.edu/fms/about/index.html)
+
+## Supporting evidence
+
+### Full daily profile
+
+![Median weekday and weekend demand by hour. Weekday median demand was 8.71 kW outside assumed work hours and 9.26 kW during them.](assets/iw-demand-profile.png)
+
+Lines show the median demand at each hour. Bands show the middle 80% of readings. Gray marks the hours outside the assumed weekday schedule. The dotted line marks the 5th percentile across valid hours. In the lighting comparison above, the pooled correlation across valid hours was **0.91**. The signal definition, its units, and meter coverage still need verification.
 
 ### 3. Look inside the workplace
 
@@ -58,15 +72,26 @@ Median room-temperature readings rise across the demand groups. Median CO₂ rea
 
 Monthly medians stay close, from **8.69 to 8.85 kW**, while February has a wider spread. The four months give an early check on the pattern. Comparing seasons would require records from the rest of the year and weather data.
 
-### What would you ask campus facilities?
+### Did the work-hours gap hold each month?
 
-Go back to the [daily demand profile](#1-follow-the-meter-through-a-day). Pick one evening hour and one hour during the workday. Compare the two points on the solid weekday line. **If you could ask campus facilities one question about what was still running, what would it be?**
+![Paired dots show that outside-hours median demand was lower than work-hours median demand in all four months.](assets/iw-part-ii-monthly-pairs.svg)
 
-For example: “Which equipment does this meter cover, and what needs to run in the evening?” The chart gives you a time and a measured pattern to ask about.
+The gap held in each measured month, from **0.33 kW in March** to **0.88 kW in February**. The paired chart uses weekdays only and compares the two schedule windows within each month. Differences are calculated before rounding.
+
+### When did the highest readings occur?
+
+Of the **137 highest-demand hours** among the **2,735 valid hours**, **58** occurred on weekdays at 6 p.m. or later and **29** occurred on weekdays before 8 a.m. Together, those two groups accounted for about **64% of the highest readings** and **41% of all valid hours**. The other highest readings occurred during assumed weekday work hours (48) or on weekends (2). These are hours in the recorded period.
+
+<details>
+<summary>Earlier storyboard overview</summary>
+
+![Six storyboard panels showing the opening, hourly demand, the lighting-related signal, indoor readings, the monthly check, and the closing comparison and question for campus facilities.](assets/iw-part-ii-storyboard.svg)
+
+</details>
 
 ### From Part I sketches to this draft
 
-Part I instructor feedback highlighted the campus setting and the difference between the first sketch and the measured profile. The feedback also asked me to define my reader more clearly and give them a next step. In this draft, I address students who use campus buildings, put the sketch immediately before the measured profile, and close with a question readers can take to campus facilities.
+Part I instructor feedback highlighted the campus setting and the difference between the first sketch and the measured profile. The feedback also asked me to define my reader more clearly and give them a next step. In this draft, I address students who use campus buildings, let readers make a prediction from the sketch before revealing the measured profile, and close with a question readers can take to campus facilities.
 
 | Part I concept | Part II decision |
 |---|---|
@@ -80,40 +105,44 @@ Part I instructor feedback highlighted the campus setting and the difference bet
 
 **Target audience and recruitment.** The story is for CMU students who use campus buildings for class, study, or work and have little or no building-systems training. Recruit at least three students who have not worked on the project. Aim for two without building-science training and one who has encountered building or sustainability data. Record broad descriptions such as “student, unfamiliar with building data.”
 
-**Session.** Allow 10–15 minutes per person. Use the draft story above and show it in order. Ask for a think-aloud first, then use the follow-up questions. Pause before the closing prompt and ask the unaided question before revealing it. Take anonymous notes on what readers say and do. Ask permission before recording a quotation and omit identifying details from any notes posted here.
+**Session.** Allow 10–15 minutes per person. For a follow-up, use the four storyboard panels above and show them in order. Ask for a think-aloud first, then use the follow-up questions. Pause before the closing prompt and ask the unaided question before revealing it. Take anonymous notes on what readers say and do. Ask permission before recording a quotation and omit identifying details from any notes posted here.
 
 **Opening script.** “I’m testing how clearly this draft explains electricity demand at a campus workplace. Please read it at your own pace and tell me what you notice, what you expect next, or where you get stuck. You can skip any question. Is it okay if I take anonymous notes?”
 
 | When | Question or task | What to note |
 |---|---|---|
 | After the opening | In your own words, what is this story about? What do you expect to see next? | First takeaway and expectations. |
-| At the daily profile | Point to an hour outside the assumed workday. How does weekday demand there compare with the daytime? What do the lines and shaded areas mean to you? What can you tell about whether people were in the building? | Whether the reader can compare points and distinguish schedule shading from occupancy evidence. |
+| At the daily profile | Point to an hour outside the assumed workday. How does weekday demand there compare with the daytime? What does the weekday line mean to you? What can you tell about whether people were in the building? | Whether the reader can compare points and distinguish schedule shading from occupancy evidence. |
 | At the scatterplots | What changes as you read from left to right? What, if anything, would you conclude about the lights? | Whether the reader sees an association or treats the chart as proof of a cause. |
-| At the indoor charts | What do you notice about the lowest- and highest-demand groups? What would you need to know to interpret this as someone using the space? | Whether the reader notices the spread and asks about units, occupancy, or comfort. |
+| If they open the supporting indoor charts | What do you notice about the lowest- and highest-demand groups? What would you need to know to interpret this as someone using the space? | Whether the reader notices the spread and asks about units, occupancy, or comfort. |
 | Before showing the closing prompt | What would you tell a friend about the building? What, if anything, would you do or ask next? | The reader’s unaided takeaway and next step. |
-| After showing the closing prompt | Pick an evening and a daytime point on the weekday line. What question would you ask campus facilities based on that comparison? | Whether the reader can use the prompt to form a specific question and what they needed help with. |
+| After showing the closing prompt | Compare noon and 8 p.m. on the weekday line. What question would you ask campus facilities based on that comparison? | Whether the reader can use the prompt to form a specific question and what they needed help with. |
 
 ## Interview findings
 
-Part II interview findings are pending. The storyboard above is the version prepared for testing.
+I spoke with **three classmates** about the previous explanation. They had trouble following the story and asked for a familiar comparison, simpler charts, and an introduction to energy efficiency. They also asked about electricity bills and how quickly equipment upgrades might pay for themselves. These are paraphrased group notes.
+
+A separate reviewer familiar with the Intelligent Workplace found the sketch-to-meter reveal effective and pointed out that the lighting chart’s most useful detail is the electricity draw that remains visible at the left edge. The reviewer also suggested checking the work-hours gap month by month and moving the indoor readings out of the main sequence.
+
+| Feedback | What I changed in Part II |
+|---|---|
+| Instructor feedback called for a clearer audience and a stronger next step. | I start with a situation a campus reader knows and end with a specific question for Facilities. |
+| Classmates found the explanations and charts hard to follow. | I use a classroom example, one weekday line, and two labeled times before showing more evidence. |
+| The building-familiar reviewer wanted a clearer link between the persistent draw and the lighting chart. | I point readers to the low end of the recorded signal and make meter coverage the next question. |
+| The building-familiar reviewer suggested testing the pattern across months. | I added paired monthly medians and moved the indoor readings to the supporting section. |
 
 ## Design changes to test for Part III
 
-These are candidate revisions to evaluate with readers during the interviews.
-
-| What to listen for | Candidate revision |
-|---|---|
-| Readers treat the assumed schedule as proof of when the building is empty. | Put “schedule assumption” directly beside the shading and repeat the occupancy limitation at the opening. |
-| Readers struggle to compare the 8.71 and 9.26 kW figures with the daily profile. | Add a short annotation pointing to the evening and overnight segment. |
-| Readers take the scatterplots as evidence that the lights cause the change. | Add a plain-language annotation explaining the relationship and naming the missing meter information. |
-| Readers lose the thread at the indoor or monthly comparison. | Move the less useful comparison into a short evidence note after the main story. |
-| Readers still come away without a specific question for facilities. | Use a worked example tied to two labeled hours and test whether readers can then ask a question of their own. |
+Show new readers the first two panels, then ask what surprised them and what they would ask next. Check whether they can explain the noon-to-evening comparison and tell what the schedule assumption means. If the lighting panel slows readers down, test an annotation placed directly inside the plot. A calendar heatmap could also show which dates contributed the highest readings. An actual savings or payback estimate would require a specific intervention, installed costs, applicable billing terms, and measured savings under comparable conditions.
 
 ## Sources and AI acknowledgment
 
 - Historical Intelligent Workplace building-management-system exports, December 2017 through March 2018. [Cleaned hourly data](data/IW_hourly_Dec2017_Mar2018.csv) · [Preparation and quality checks](final-project-part-one#how-i-prepared-the-hourly-data).
 - Carnegie Mellon University, [Center for Building Performance and Diagnostics](https://www.architecture.cmu.edu/cbpd). Building context and linked photograph.
+- Hartkopf et al., [An integrated approach to design and engineering of intelligent buildings](https://doi.org/10.1016/S0926-5805(97)00019-8). Original design context for the Intelligent Workplace.
+- Cochran et al., [Integrated Dynamic Skylight Solutions](https://www.aceee.org/wp-content/uploads/proceedings-1980-2020/2014/3-805.pdf). Daylighting experiments at the Intelligent Workplace.
 
-I chose the Intelligent Workplace as the case study, obtained permission to use the data, and developed the original concepts. I used ChatGPT to help process and check the hourly data, develop the draft figures, and draft this storyboard, page text, and interview protocol.
+I chose the Intelligent Workplace as the case study, obtained permission to use the data, and developed the original concepts. I used ChatGPT to help process and check the hourly data, develop the draft figures, and draft and revise the storyboard, page text, and interview protocol using my feedback notes.
 
 [Back to the portfolio](https://marxcel2412.github.io/yash_tellingstories_portfolio/)
+
