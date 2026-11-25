@@ -6,7 +6,7 @@
 
 *Final Project II · Storyboard, draft charts, and user research*
 
-[Start the draft story](#storyboard-and-draft-story) · [Read the interview protocol](#user-research-protocol) · [Interview findings and Part III](#interview-findings)
+[Read the published Shorthand story](https://carnegiemellon.shorthandstories.com/the-two-lives-of-an-intelligent-building/index.html) · [View the embedded story](#published-shorthand-story) · [Start the draft story](#storyboard-and-draft-story) · [Read the interview protocol](#user-research-protocol) · [Interview findings and Part III](#interview-findings)
 
 ## Storyboard and draft story
 
@@ -161,6 +161,12 @@ Show new readers the first two panels, then ask what surprised them and what the
 - Cochran et al., [Integrated Dynamic Skylight Solutions](https://www.aceee.org/wp-content/uploads/proceedings-1980-2020/2014/3-805.pdf). Daylighting experiments at the Intelligent Workplace.
 
 I chose the Intelligent Workplace as the case study, obtained permission to use the data, and developed the original concepts. I used ChatGPT to help process and check the hourly data, develop the draft figures, and draft and revise the storyboard, page text, and interview protocol using my feedback notes.
+
+## Published Shorthand story
+
+[Open The Two Lives of an Intelligent Building in Shorthand](https://carnegiemellon.shorthandstories.com/the-two-lives-of-an-intelligent-building/index.html)
+
+<script src="https://carnegiemellon.shorthandstories.com/the-two-lives-of-an-intelligent-building/embed.js"></script>
 
 [Back to the portfolio](https://marxcel2412.github.io/yash_tellingstories_portfolio/)
 
