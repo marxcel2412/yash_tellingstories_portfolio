@@ -6,7 +6,7 @@
 
 *Final Project II · Storyboard, draft charts, and user research*
 
-[Read the published Shorthand story](https://carnegiemellon.shorthandstories.com/the-two-lives-of-an-intelligent-building/index.html) · [View the embedded story](#published-shorthand-story) · [Start the draft story](#storyboard-and-draft-story) · [Read the interview protocol](#user-research-protocol) · [Interview findings and Part III](#interview-findings)
+[Read the in-process Shorthand story](https://carnegiemellon.shorthandstories.com/the-two-lives-of-an-intelligent-building/index.html) · [View the embedded story](#published-shorthand-story) · [Start the draft story](#storyboard-and-draft-story) · [Read the interview protocol](#user-research-protocol) · [Interview findings and Part III](#interview-findings)
 
 ## Storyboard and draft story
 
@@ -160,7 +160,7 @@ Show new readers the first two panels, then ask what surprised them and what the
 - Hartkopf et al., [An integrated approach to design and engineering of intelligent buildings](https://doi.org/10.1016/S0926-5805(97)00019-8). Original design context for the Intelligent Workplace.
 - Cochran et al., [Integrated Dynamic Skylight Solutions](https://www.aceee.org/wp-content/uploads/proceedings-1980-2020/2014/3-805.pdf). Daylighting experiments at the Intelligent Workplace.
 
-I chose the Intelligent Workplace as the case study, obtained permission to use the data, and developed the original concepts. I used ChatGPT to help process and check the hourly data, develop the draft figures, and draft and revise the storyboard, page text, and interview protocol using my feedback notes.
+I chose the Intelligent Workplace as the case study and developed the original concepts. I used ChatGPT to help process and check the hourly data and brainstorm ideas for the storyboard, shorthand roadblocks, and interview protocol using my feedback notes.
 
 ## Published Shorthand story
 
