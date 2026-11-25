@@ -16,6 +16,10 @@ Imagine sitting in a classroom when the sun comes out. If daylight keeps the roo
 
 CMU’s **Intelligent Workplace**, a research lab and workspace above Margaret Morrison Carnegie Hall, was designed to test ideas like this. Its design brings together daylight, natural ventilation, and controls that let people adjust conditions where they work. CMU researchers later used the space to test how different skylights and shades manage daylight. [See the Intelligent Workplace](https://www.architecture.cmu.edu/cbpd) · [Read the original design study](https://doi.org/10.1016/S0926-5805(97)00019-8)
 
+![Daylight-responsive lighting diagram. With more daylight, electric lights can dim while the room stays bright.](assets/iw-part-ii-daylight-controls.svg)
+
+*This diagram illustrates the design idea behind daylight-responsive lighting.*
+
 That made me curious about the end of the workday. **How much would the meter reading change from noon to 8 p.m.?** I sketched the drop I expected. Before you scroll, take a guess.
 
 ![Original daily rhythm sketch showing an anticipated large rise in weekday electricity demand.](assets/iw-sketch-01-daily-rhythm.png)
@@ -89,6 +93,10 @@ Monthly medians stay close, from **8.69 to 8.85 kW**, while February has a wider
 The gap held in each measured month, from **0.33 kW in March** to **0.88 kW in February**. The paired chart uses weekdays only and compares the two schedule windows within each month. Differences are calculated before rounding.
 
 ### When did the highest readings occur?
+
+![Bar chart showing the share of valid hours in the top 5% of demand: 7.7% outside weekday work hours, 5.9% during them, and 0.3% on weekends.](assets/iw-part-ii-peak-hours.svg)
+
+*The bars account for how many hours were recorded in each group. A high-demand reading occurred in 7.7% of hours outside assumed weekday work hours, compared with 5.9% during them and 0.3% on weekends.*
 
 Of the **137 highest-demand hours** among the **2,735 valid hours**, **58** occurred on weekdays at 6 p.m. or later and **29** occurred on weekdays before 8 a.m. Together, those two groups accounted for about **64% of the highest readings** and **41% of all valid hours**. The other highest readings occurred during assumed weekday work hours (48) or on weekends (2). These are hours in the recorded period.
 
