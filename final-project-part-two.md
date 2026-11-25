@@ -2,17 +2,21 @@
 
 # The Two Lives of an Intelligent Building
 
+*A smart campus workplace by day. What does its electricity meter tell us after hours?*
+
 *Final Project II · Storyboard, draft charts, and user research*
 
 [Start the draft story](#storyboard-and-draft-story) · [Read the interview protocol](#user-research-protocol) · [Interview findings and Part III](#interview-findings)
 
 ## Storyboard and draft story
 
-### What do you expect after 6 p.m.?
+### What makes this workplace smart?
 
-When you leave a classroom at the end of the day, what do you expect happens to its electricity use? If daylight keeps a classroom bright while its electric lights dim, the room can do the same job with less electricity. CMU’s Intelligent Workplace, the rooftop research lab above Margaret Morrison Carnegie Hall, was designed to study how building systems can respond to the people using them. [See a photo of the Intelligent Workplace](https://www.architecture.cmu.edu/cbpd).
+Imagine sitting in a classroom when the sun comes out. If daylight keeps the room bright, the electric lights can dim and the room can do the same job with less electricity. That is one way a smart building can adapt to changing conditions.
 
-I expected the meter to show a steep drop after a typical workday. Before looking at the measurements, what would you expect the line to look like at 8 p.m.?
+CMU’s **Intelligent Workplace**, a research lab and workspace above Margaret Morrison Carnegie Hall, was designed to test ideas like this. Its design brings together daylight, natural ventilation, and controls that let people adjust conditions where they work. CMU researchers later used the space to test how different skylights and shades manage daylight. [See the Intelligent Workplace](https://www.architecture.cmu.edu/cbpd) · [Read the original design study](https://doi.org/10.1016/S0926-5805(97)00019-8)
+
+That made me curious about the end of the workday. **How much would the meter reading change from noon to 8 p.m.?** I sketched the drop I expected. Before you scroll, take a guess.
 
 ![Original daily rhythm sketch showing an anticipated large rise in weekday electricity demand.](assets/iw-sketch-01-daily-rhythm.png)
 
@@ -22,11 +26,13 @@ I expected the meter to show a steep drop after a typical workday. Before lookin
 
 ### 1. Follow the meter through a day
 
-**Panel 2 · The reveal.** At noon the meter typically showed **9.40 kW**. At 8 p.m. it showed **9.31 kW**. Find the two labeled points on the line. A kilowatt, or kW, measures how fast something draws electricity.
+**Panel 2 · The reveal.** The meter typically showed **9.40 kW at noon** and **9.31 kW at 8 p.m.** That is a small change for the steep drop I had imagined. Find the two labeled points on the line. A kilowatt, or kW, measures how fast something draws electricity.
 
 ![Typical weekday electricity draw by hour. The median was 9.40 kW at noon and 9.31 kW at 8 p.m.](assets/iw-part-ii-noon-evening.svg)
 
 Across all valid weekday readings, the median was **9.26 kW during** assumed work hours and **8.71 kW outside** them, about **6% lower**. I used **8 a.m. to 6 p.m. on weekdays** as a comparison window. The records leave actual occupancy unknown.
+
+Smart controls can change how individual systems operate. The meter gives one reading for all the equipment it serves. The next chart offers one clue about what changes alongside the meter reading.
 
 [Follow one clue](#2-compare-demand-with-a-lighting-related-reading)
 
@@ -36,7 +42,7 @@ Across all valid weekday readings, the median was **9.26 kW during** assumed wor
 
 ![Scatterplots split into weekdays and weekends on the same axes. Higher lighting-related readings generally coincide with higher electricity demand.](assets/iw-demand-lighting.png)
 
-The signal moves with electricity draw, and its units and exact meaning still need verification. To explain the readings on the far left, I’d first find out which equipment this meter serves. [See the technical notes](#supporting-evidence).
+Daylight-responsive lighting is an example of what the IW was designed to explore. The chart uses a recorded lighting-related signal whose units and exact meaning still need verification. To explain the power draw visible at the left edge, I’d first find out which equipment this meter serves. [See the technical notes](#supporting-evidence).
 
 [Use what you saw to frame a question](#what-would-you-ask-campus-facilities)
 
@@ -46,9 +52,13 @@ The signal moves with electricity draw, and its units and exact meaning still ne
 
 > At CMU’s Intelligent Workplace, the meter was still near its noon reading at 8 p.m. **Which equipment does this meter serve, and which of it needs to run at 8 p.m.?**
 
-That gives Facilities a specific meter and time to investigate. The next step would be to check what the meter serves and compare those equipment schedules with the readings. [CMU Facilities Management Services](https://www.cmu.edu/fms/about/index.html)
+That gives Facilities a specific time and a meter record to investigate. I’d ask them to check the equipment list and what was scheduled to run at 8 p.m. That would help explain how the IW’s smart systems operated alongside the other equipment served by the meter. [CMU Facilities Management Services](https://www.cmu.edu/fms/about/index.html)
 
 ## Supporting evidence
+
+### How would I compare the IW with another campus workplace?
+
+A fair energy-efficiency comparison would start with annual electricity, heating, and cooling for the IW itself, its floor area, and the same information for workplaces with a similar function and operating schedule. The four months here show when the meter recorded demand. An annual comparison per square foot would answer how the IW performs relative to those peers. [ENERGY STAR guide to energy use intensity](https://www.energystar.gov/buildings/benchmark/understand-metrics/what-eui)
 
 ### Full daily profile
 
@@ -111,7 +121,7 @@ Part I instructor feedback highlighted the campus setting and the difference bet
 
 | When | Question or task | What to note |
 |---|---|---|
-| After the opening | In your own words, what is this story about? What do you expect to see next? | First takeaway and expectations. |
+| After the opening | What makes this workplace smart in your own words? What do you expect the meter to show at 8 p.m.? | Whether the reader can explain one design feature and form a prediction. |
 | At the daily profile | Point to an hour outside the assumed workday. How does weekday demand there compare with the daytime? What does the weekday line mean to you? What can you tell about whether people were in the building? | Whether the reader can compare points and distinguish schedule shading from occupancy evidence. |
 | At the scatterplots | What changes as you read from left to right? What, if anything, would you conclude about the lights? | Whether the reader sees an association or treats the chart as proof of a cause. |
 | If they open the supporting indoor charts | What do you notice about the lowest- and highest-demand groups? What would you need to know to interpret this as someone using the space? | Whether the reader notices the spread and asks about units, occupancy, or comfort. |
@@ -133,7 +143,7 @@ A separate reviewer familiar with the Intelligent Workplace found the sketch-to-
 
 ## Design changes to test for Part III
 
-Show new readers the first two panels, then ask what surprised them and what they would ask next. Check whether they can explain the noon-to-evening comparison and tell what the schedule assumption means. If the lighting panel slows readers down, test an annotation placed directly inside the plot. A calendar heatmap could also show which dates contributed the highest readings. An actual savings or payback estimate would require a specific intervention, installed costs, applicable billing terms, and measured savings under comparable conditions.
+Show new readers the first two panels, then ask what surprised them and what they would ask next. Check whether they can explain a smart-building feature, describe the noon-to-evening comparison, and identify what would be needed to compare energy efficiency with another workplace. If the lighting panel slows readers down, test an annotation placed directly inside the plot. A calendar heatmap could also show which dates contributed the highest readings. An actual savings or payback estimate would require a specific intervention, installed costs, applicable billing terms, and measured savings under comparable conditions.
 
 ## Sources and AI acknowledgment
 
